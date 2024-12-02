@@ -2,7 +2,7 @@ name: SonarCloud
 on:
   push:
     branches:
-      - develop
+      - develop #Rama de evaluación.
 jobs:
   build:
     name: Build and analyze
